@@ -13,6 +13,8 @@ node_modules/
 # ------------------------------------------------------------
 # Build output
 # ------------------------------------------------------------
+dist-phase1/
+.npm-cache/
 dist/
 build/
 .angular/
@@ -70,5 +72,6 @@ coverage/
 # NO ignorar
 # ============================================================
  AGENTS.md
+ plan-frontend.md
 # README.md
 # src/environments/environment.ts  (template sin valores reales)

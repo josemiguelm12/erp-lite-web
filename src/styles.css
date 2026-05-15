@@ -1,2 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+@import "primeicons/primeicons.css";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.erp-panel-menu .p-panelmenu-panel {
+  border: 0;
+  background: transparent;
+}
+
+.erp-panel-menu .p-panelmenu-header-content,
+.erp-panel-menu .p-panelmenu-content {
+  background: transparent;
+  border: 0;
+}
+
+.erp-panel-menu .p-menuitem-link {
+  border-radius: 1rem;
+}
